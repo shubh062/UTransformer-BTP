@@ -3,7 +3,7 @@ import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
 from utils.utils import *
-from DiffAugment import *
+from models.DiffAugment import *
 
 class MsImageDis(nn.Module):
     # Multi-scale discriminator architecture

@@ -126,7 +126,8 @@ if __name__ == '__main__':
 
     SAVE_WEIGHT_DIR = '/outpainting/checkpoints/former_resize_4-3/'
     SAVE_LOG_DIR = '/outpainting/logs_all/logs_former_resize_4-3/'
-    TRAIN_DATA_DIR = '/outpainting/data3/train_all.asd'
+    TRAIN_DATA_DIR = '/content/UTransformer-BTP/results'
+    LOAD_WEIGHT_DIR = ''
 
 
 
@@ -141,7 +142,7 @@ if __name__ == '__main__':
         parser.add_argument('--epochs', type=int, help='number of epoches', default=300)
         parser.add_argument('--lr', type=float, help='learning rate', default=2e-4)
         parser.add_argument('--alpha', type=float, help='learning rate decay for discriminator', default=0.1)
-        parser.add_argument('--load_pretrain', type=bool, help='load pretrain weight', default=True)
+        parser.add_argument('--load_pretrain', type=bool, help='load pretrain weight', default=False)
         parser.add_argument('--test_flag', type=bool, help='testing while training', default=False)
         parser.add_argument('--adjoint', type=bool, help='if use adjoint in odenet', default=True)
 
