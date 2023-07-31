@@ -124,8 +124,8 @@ def train(gen, dis, opt_gen, opt_dis, epoch, train_loader, writer):
 
 if __name__ == '__main__':
 
-    SAVE_WEIGHT_DIR = '/outpainting/checkpoints/former_resize_4-3/'
-    SAVE_LOG_DIR = '/outpainting/logs_all/logs_former_resize_4-3/'
+    SAVE_WEIGHT_DIR = '/content/UTransformer-BTP/outpainting/checkpoints/former_resize_4-3'
+    SAVE_LOG_DIR = '/content/UTransformer-BTP/outpainting/logs_all/logs_former_resize_4-3'
     TRAIN_DATA_DIR = '/content/UTransformer-BTP/results'
     LOAD_WEIGHT_DIR = ''
 
