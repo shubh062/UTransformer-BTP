@@ -29,4 +29,3 @@ imageio-ffmpeg
 tensorflow
 tensorboardX
 timm
-tensorboardX protobuf
