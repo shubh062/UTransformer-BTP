@@ -25,7 +25,7 @@ torchaudio==0.8.0
 torchvision==0.9.0
 typing-extensions==3.10.0.0
 urllib3==1.26.6
+tensorboardX==2.6.2
+timm==0.9.2
 imageio-ffmpeg
 tensorflow
-tensorboardX
-timm

@@ -1,0 +1,1 @@
+python train_transformer4.py --train_data_dir results --train_batch_size 20
